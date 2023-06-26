@@ -1,0 +1,24 @@
+<h2>Panel Menu</h2>
+<br />
+<div class="row">
+  <div class="col-6">
+    <p-panel header="PrimeNg Example">
+      <p-panelMenu [model]="items" [style]="{ width: '300px' }"></p-panelMenu>
+    </p-panel>
+  </div>
+  <div class="col-6">
+    <p-panel header="Insights Example">
+      <p-panelMenu
+        id="sidebar"
+        appAutofocus
+        [attr.autoFocus]="focus"
+        [transitionOptions]="'300ms'"
+        [model]="menuItems"
+        [multiple]="false"
+        [ngClass]="'sidebar'"
+      >
+        \
+      </p-panelMenu>
+    </p-panel>
+  </div>
+</div>

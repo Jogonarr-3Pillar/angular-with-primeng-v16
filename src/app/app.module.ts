@@ -7,6 +7,7 @@ import { MenubarModule } from 'primeng/menubar';
 import { PanelMenuModule } from 'primeng/panelmenu';
 import { PanelModule } from 'primeng/panel';
 import { DividerModule } from 'primeng/divider';
+import { ChartModule } from 'primeng/chart';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationTestComponent } from './navigation-test/navigation-test.component';
 import { PanelMenuComponent } from './panel-menu/panel-menu.component';
+import { ChartComponent } from './chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import { PanelMenuComponent } from './panel-menu/panel-menu.component';
     HomeComponent,
     NavigationTestComponent,
     PanelMenuComponent,
+    ChartComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,6 +35,7 @@ import { PanelMenuComponent } from './panel-menu/panel-menu.component';
     PanelMenuModule,
     PanelModule,
     DividerModule,
+    ChartModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

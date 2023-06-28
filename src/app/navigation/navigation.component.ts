@@ -28,6 +28,11 @@ export class NavigationComponent implements OnInit {
             icon: 'pi pi-fw pi-list',
             routerLink: ['/components/panel-menu'],
           },
+          {
+            label: 'Chart',
+            icon: 'pi pi-fw pi-chart-bar',
+            routerLink: ['/components/chart'],
+          },
         ],
       },
       {

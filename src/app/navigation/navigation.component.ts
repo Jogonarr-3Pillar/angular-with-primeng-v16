@@ -38,6 +38,11 @@ export class NavigationComponent implements OnInit {
             icon: 'pi pi-fw pi-sitemap',
             routerLink: ['/components/tree'],
           },
+          {
+            label: 'Multi-Select',
+            icon: 'pi pi-fw pi-list',
+            routerLink: ['/components/multi-select'],
+          },
         ],
       },
       {

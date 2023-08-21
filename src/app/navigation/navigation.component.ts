@@ -33,6 +33,11 @@ export class NavigationComponent implements OnInit {
             icon: 'pi pi-fw pi-chart-bar',
             routerLink: ['/components/chart'],
           },
+          {
+            label: 'Tree',
+            icon: 'pi pi-fw pi-sitemap',
+            routerLink: ['/components/tree'],
+          },
         ],
       },
       {

@@ -8,6 +8,8 @@ import { PanelMenuModule } from 'primeng/panelmenu';
 import { PanelModule } from 'primeng/panel';
 import { DividerModule } from 'primeng/divider';
 import { ChartModule } from 'primeng/chart';
+import { TreeModule } from 'primeng/tree';
+import { MultiSelectModule } from 'primeng/multiselect';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +18,8 @@ import { HomeComponent } from './home/home.component';
 import { NavigationTestComponent } from './navigation-test/navigation-test.component';
 import { PanelMenuComponent } from './panel-menu/panel-menu.component';
 import { ChartComponent } from './chart/chart.component';
+import { TreeComponent } from './tree/tree.component';
+import { MultiSelectComponent } from './multi-select/multi-select.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +29,8 @@ import { ChartComponent } from './chart/chart.component';
     NavigationTestComponent,
     PanelMenuComponent,
     ChartComponent,
+    TreeComponent,
+    MultiSelectComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +42,8 @@ import { ChartComponent } from './chart/chart.component';
     PanelModule,
     DividerModule,
     ChartModule,
+    TreeModule,
+    MultiSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
